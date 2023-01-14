@@ -1,0 +1,80 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    padding: 50px 150px;
+    background-color: #FF900E1A;
+}
+
+/* Header Section */
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.navigation-link ul {
+    display: flex;
+}
+
+.navigation-link ul li {
+    list-style: none;
+}
+
+.navigation-link ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 45px;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.header-content img {
+    width: 100%;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 30px 0;
+}
+
+.explore-btn {
+    width: 180px;
+    height: 64px;
+    border: none;
+    background-color: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
