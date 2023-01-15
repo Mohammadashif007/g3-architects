@@ -12,6 +12,9 @@
 
 .container {
     padding: 50px 150px;
+}
+
+.header-bg {
     background-color: #FF900E1A;
 }
 
@@ -77,4 +80,228 @@
     color: #FFFFFF;
     border-radius: 8px;
     margin-bottom: 50px;
+}
+
+/* Features Section */
+
+.features {
+    display: flex;
+    align-items: center;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-img img {
+    width: 100%;
+}
+
+.features-text {
+    margin-left: 75px;
+
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.features-description {
+    margin: 32px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.text-color {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text-size {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.quick-color {
+    color: #727272;
+}
+
+/* Popular features */
+
+.popular-features {
+    display: flex;
+    align-items: center;
+}
+
+.popular-feature {
+    /* border: 1px solid gray; */
+    margin-bottom: 20px;
+    margin-right: 34px;
+    padding: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.popular-features-img img {
+    width: 100%;
+}
+
+.popular-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.popular-text {
+    color: #727272;
+    margin: 15px 0;
+    margin-right: 54px;
+}
+
+.service-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-top: 10px;
+}
+
+.service-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.experience-btn {
+    padding: 30px 25px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+}
+
+.year {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.experience {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* facts section */
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.facts-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.our-achievements {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.achievement {
+    border: 1px solid #FF900E;
+    padding: 25px 20px;
+    border-radius: 8px;
+    text-align: center;
+    /* width: 241.83px;
+    height: 241.83px; */
+}
+
+.achievement-counts {
+    font-weight: 600;
+    font-size: 40px;
+    color: #424242;
+}
+
+.achievement-name {
+    font-weight: 600;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* sponsors section */
+
+.sponsors-description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+.sponsors-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company img:nth-of-type(n) {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+ }
+
+ /* Extra section */
+.feedback-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 50px;
+}
+.clients {
+    display: flex;
+    gap: 30px;
+}
+.client {
+    text-align: center;
+    /* border: 1px solid grey; */
+    padding: 35px 30px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 8px;
+}
+.fa-face {
+    font-size: 40px;
+}
+.client-name {
+    margin: 20px 0;
+}
+/* footer section */
+
+.copy-right {
+    background-color: #FFF4E7;
+    text-align: center;
+    padding: 35px 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    border-radius: 8px;
 }
