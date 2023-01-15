@@ -320,7 +320,7 @@
 
 /* Responsive */
 
-@media screen and (max-width: 556px) {
+@media screen and (max-width: 576px) {
 
     /* header navigation section */
 
@@ -377,5 +377,8 @@
 
     .clients {
         flex-direction: column;
+    }
+    .copy-right {
+        padding: 0;
     }
 }
