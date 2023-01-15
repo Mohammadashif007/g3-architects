@@ -231,8 +231,6 @@
     padding: 25px 20px;
     border-radius: 8px;
     text-align: center;
-    /* width: 241.83px;
-    height: 241.83px; */
 }
 .achievement:hover {
     transform: scale(1.5);
@@ -281,6 +279,7 @@
  }
 
  /* Extra section */
+
 .feedback-title {
     text-align: center;
     font-weight: 700;
@@ -294,7 +293,6 @@
 }
 .client {
     text-align: center;
-    /* border: 1px solid grey; */
     padding: 35px 30px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 8px;
@@ -305,6 +303,7 @@
 .client-name {
     margin: 20px 0;
 }
+
 /* footer section */
 
 .copy-right {
